@@ -1,7 +1,7 @@
 {
 	"name": "nk932714",
-	"website": "https://github.com/nk932714/save2gdrive",
-	"repository": "https://github.com/nk932714/save2gdrive",
+	"website": "https://github.com/nk932714/v2gdrive",
+	"repository": "https://github.com/nk932714/v2gdrive",
 	"env": {
 		"DRIVE_REDIRECT_URI": { "required": false }
 	}
