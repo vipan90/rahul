@@ -6,6 +6,7 @@
 	"repository": "https://github.com/nk932714/v2gdrive",
 	"keywords": ["http", "google", "API", "testing", "integration", "node", "dri"]
 	"env": {
+		"value": "http://YOURAPP.com/oauth2callback",
 		"DRIVE_REDIRECT_URI": { "required": false }
 	}
 }
