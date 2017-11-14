@@ -8,5 +8,5 @@
 	"env": {
 		"value": "http://YOURAPP.com/oauth2callback",
 		"DRIVE_REDIRECT_URI": { "required": false }
-	}
+	},
 }
