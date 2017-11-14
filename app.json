@@ -1,10 +1,10 @@
 {
 	"name": "nk932714",
-	 "description": "HTTP Request & Response Service, written in node + http + css.",
+	"description": "HTTP Request & Response Service, written in node + http + css.",
 	"website": "https://github.com/nk932714/v2gdrive",
 	"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Google-favicon-2015.png/150px-Google-favicon-2015.png",
 	"repository": "https://github.com/nk932714/v2gdrive",
-	"keywords": ["http", "google", "API", "testing", "integration", "node", "dri"]
+	"keywords": ["http", "google", "API", "testing", "integration", "node", "dri"],
 	"env": {
 		"value": "http://YOURAPP.com/oauth2callback",
 		"DRIVE_REDIRECT_URI": { "required": false }
