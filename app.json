@@ -1,16 +1,9 @@
+
 {
-	"name": "v2gdrive",
-	"website": "https://github.com/nk932714/v2gdrive",
-	"repository": "https://github.com/nk932714/v2gdrive",
-		"env": {
-		"AUTSER": { "required": false },
-		"AUTHORD": { "required": false },
-		"SEARCH__URL": {
-			"value": "https://gist.gitedc4/raw/a.json",
-			"required": false
-		},
-		
-		"MEGA_EMAIL": { "required": false },
-		"MEGA_PASS": { "required": false }
-	}
+  "name": "Start on Heroku: Node.js",
+  "description": "A barebones Node.js app using Express 4",
+  "https://github.com/nk932714/v2gdrive",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
 }
