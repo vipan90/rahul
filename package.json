@@ -1,6 +1,6 @@
 {
-  "name": "google-drive-manager",
-  "version": "1.0.0",
+  "name": "v2gdrive",
+  "version": "2.0.0",
   "description": "Downloads and manage drive files of google drive",
   "main": "server.js",
   "scripts": {
