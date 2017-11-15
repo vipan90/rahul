@@ -1,58 +1,9 @@
 {
-  "name": "Small Sharp Tool",
-  "description": "This app does one little thing, and does it well.",
-  "keywords": [
-    "productivity",
-    "HTML5",
-    "scalpel"
-  ],
-  "website": "https://small-sharp-tool.com/",
-  "repository": "https://github.com/nk932714/vtwogdrive",
-  "logo": "https://small-sharp-tool.com/logo.svg",
-  "success_url": "/welcome",
-  "scripts": {
-    "postdeploy": "bundle exec rake bootstrap"
-  },
-  "env": {
-    "SECRET_TOKEN": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": "secret"
-    },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
-    }
-  },
-  "formation": {
-    "web": {
-      "quantity": 2,
-      "size": "Performance-M"
-    }
-  },
-  "image": "heroku/ruby",
-  "addons": [
-    "openredis",
-    {
-      "plan": "mongolab:shared-single-small",
-      "as": "MONGO"
-    },
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "9.5"
-      }
-    }
-  ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
-    }
-  ],
-  "environments": {
-    "test": {
-      "scripts": {
-        "test": "bundle exec rake test"
-      }
-    }
-  }
+  "name": "httpbin",
+  "description": "HTTP Request & Response Service, written in Python + Flask.",
+  "repository": "https://github.com/Runscope/httpbin",
+  "website": "https://httpbin.org",
+  "logo": "https://s3.amazonaws.com/f.cl.ly/items/333Y191Z2C0G2J3m3Y0b/httpbin.svg",
+  "keywords": ["http", "rest", "API", "testing", "integration", "python", "flask"],
+  "addons": "sentry"
 }
