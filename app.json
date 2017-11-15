@@ -1,7 +1,7 @@
 
 {
 	"name": "v2gdrive",
-	"website": "https://github.com/jpillora/torrent-cloud",
+	"website": "https://github.com/nk932714",
 	"repository": "https://github.com/nk932714/v2gdrive",
 	"env": {
 		"AUTH_USER": { "required": false },
