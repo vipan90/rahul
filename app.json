@@ -1,0 +1,11 @@
+{
+	"name": "v2gdrive",
+	"website": "https://github.com/nk932714/v2gdrive",
+	"repository": "https://github.com/nk932714/v2gdrive",
+	"env": {
+		"DRIVE_REDIRECT_URI": {
+			"value": "http://YOURAPP.com/oauth2callback",
+			"required": false
+		}
+	}
+}
